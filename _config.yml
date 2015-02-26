@@ -50,6 +50,7 @@ prose:
           - name: 'categories'
             field:
               element: "text"
+              label: 'Categories'
               value: ""
           - name: 'Author'
             field:
