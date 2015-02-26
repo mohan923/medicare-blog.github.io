@@ -31,3 +31,14 @@ paginate: 5
 exclude:
     - LICENSE
     - README.md
+
+prose:
+     media: 'assets'
+     rooturl: '_posts'
+     metadata:
+       _posts:
+         name: 'meta-description'
+          field:
+            element:'text'
+            label: 'Meta description'
+            value: ''
