@@ -36,8 +36,8 @@ exclude:
 prose:
   media: 'assets'
   rooturl: "_posts"
-  siteurl: "https://ecwsproc:10mirrorJT!!@prod-t.healthcare.gov/"
-  relativeLinks: "https://ecwsproc:10mirrorJT!!@prod-t.healthcare.gov/resources/prose/relativeLinks.jsonp"
+  siteurl: "http://127.0.0.1:4000/blog/"
+  relativeLinks: "http://127.0.0.1:4000/blog//resources/prose/relativeLinks.jsonp"
   site:
     tags: "https://ecwsproc:10mirrorJT!!@prod-t.healthcare.gov/api/tags.jsonp"
   metadata:
