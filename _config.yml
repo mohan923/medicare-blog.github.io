@@ -39,6 +39,10 @@ prose:
             field:
               element:'text'
               value:'post'
+          - name: 'type'
+            field:
+              element:'hidden'
+              value:'post'
           - name: 'tags'
             field:
               element: "text"
@@ -49,5 +53,5 @@ prose:
               value: ""
           - name: 'Author'
             field:
-              element: "text"
+              element: "hidden"
               value: "Center for Medicare & Medicaid Services"
