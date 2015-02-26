@@ -32,13 +32,38 @@ exclude:
     - LICENSE
     - README.md
 
+# Prose settings
 prose:
-     media: 'assets'
-     rooturl: '_posts'
-     metadata:
-       _posts:
-         name: 'meta-description'
-          field:
-            element:'text'
-            label: 'Meta description'
-            value: ''
+  media: 'assets'
+  rooturl: "_posts"
+  siteurl: "https://ecwsproc:10mirrorJT!!@prod-t.healthcare.gov/"
+  relativeLinks: "https://ecwsproc:10mirrorJT!!@prod-t.healthcare.gov/resources/prose/relativeLinks.jsonp"
+  site:
+    tags: "https://ecwsproc:10mirrorJT!!@prod-t.healthcare.gov/api/tags.jsonp"
+  metadata:
+    _posts:
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          placeholder: "English"
+          options: *languages
+          selected: "en"
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Select a layout"
+          placeholder: "Default"
+          options:
+            - name: "article"
+              value: "basic"
+            - name: "multi-part article"
+              value: "basic-nav-left"
+            - name: "article, no sidebar"
+              value: "basic-full-page"
+          selected: "basic-full-page"
+      - name: "experience"
+        field:
+          element: "hidden"
+          value:
+            - "learn"
