@@ -38,4 +38,8 @@ prose:
           - name: 'feature'
             field:
               element: "text"
-              value: "blog"
+              value: ""
+          - name: 'categories'
+            field:
+              element: "text"
+              value: ""
