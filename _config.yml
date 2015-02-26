@@ -39,7 +39,7 @@ prose:
             field:
               element:'text'
               value:'post'
-          - name: 'tag'
+          - name: 'tags'
             field:
               element: "text"
               value: ""
