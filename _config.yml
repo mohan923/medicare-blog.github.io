@@ -47,3 +47,7 @@ prose:
             field:
               element: "text"
               value: ""
+          - name: 'Author'
+            field:
+              element: "text"
+              value: "Center for Medicare & Medicaid Services"
