@@ -78,6 +78,7 @@ prose:
           - name: 'Author'
             field:
               element: "text"
+              label: "Author"
               value: "Center for Medicare & Medicaid Services"
           - name: 'type'
             field:
