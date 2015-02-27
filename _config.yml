@@ -36,9 +36,14 @@ prose:
      rooturl: "_posts"
      metadata:
        _posts:
+          - name: 'title'
+            field:
+              element: "text"
+              label: 'Title'
+              value: ""
           - name: 'layout'
             field:
-              element: 'text'
+              element: 'hidden'
               label: "Layout"
               value: "post"
           - name: 'type'
@@ -49,16 +54,6 @@ prose:
             field:
               element: "text"
               label: 'Date & Time'
-              value: ""
-          - name: 'title'
-            field:
-              element: "text"
-              label: 'Title'
-              value: ""
-          - name: 'title'
-            field:
-              element: "text"
-              label: 'Meta Title'
               value: ""
           - name: 'tags'
             field:
