@@ -1,14 +1,8 @@
 ---
 type: post
-<<<<<<< HEAD
 published: true
 title: My New Blog
 date:
-=======
-published: false
-title: My New Blog
-date: 
->>>>>>> origin/master
   - 2015-02-26T11:46:17.000Z
   - "Thu Feb 26 2015 06:46:17 GMT-0500 (EST)"
 tags: test
