@@ -63,7 +63,17 @@ prose:
               element: "text"
               label: 'Categories'
               value: ""
+          - name: 'keywords'
+            field:
+              element: "text"
+              label: 'SEO Keywords'
+              value: ""
+          - name: 'description'
+            field:
+              element: "text"
+              label: 'Meta Description'
+              value: ""
           - name: 'Author'
             field:
-              element: "hidden"
+              element: "tex"
               value: "Center for Medicare & Medicaid Services"
