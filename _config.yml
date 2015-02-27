@@ -31,3 +31,29 @@ paginate: 5
 exclude:
     - LICENSE
     - README.md
+
+prose:
+     metadata:
+       _posts:
+          - name: 'layout'
+            field:
+              element:'hidden'
+              value:'post'
+          - name: 'type'
+            field:
+              element:'hidden'
+              value:'post'
+          - name: 'tags'
+            field:
+              element: "text"
+              label: 'Tags'
+              value: ""
+          - name: 'categories'
+            field:
+              element: "text"
+              label: 'Categories'
+              value: ""
+          - name: 'Author'
+            field:
+              element: "hidden"
+              value: "Center for Medicare & Medicaid Services"
