@@ -37,7 +37,7 @@ prose:
        _posts:
           - name: 'layout'
             field:
-              element:'text'
+              element:'hidden'
               value:'post'
           - name: 'type'
             field:
@@ -46,6 +46,7 @@ prose:
           - name: 'tags'
             field:
               element: "text"
+              label: 'Tags'
               value: ""
           - name: 'categories'
             field:
