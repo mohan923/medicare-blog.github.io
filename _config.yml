@@ -48,6 +48,7 @@ prose:
               element: "text"
               label: 'Date & Time'
               value: ""
+        
           - name: 'tags'
             field:
               element: "text"
