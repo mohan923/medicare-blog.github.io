@@ -1,8 +1,5 @@
 ---
 type: post
-published:
-  - true
-  - "true"
 title: "2015-02-26-my-name-earl"
 layout: post
 Author: "Center for Medicare & Medicaid Services"
