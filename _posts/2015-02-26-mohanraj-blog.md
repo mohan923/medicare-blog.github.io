@@ -1,14 +1,16 @@
 ---
-published: false
-title: "My New Blog"
-date: 2015-02-26 07:46:17.000000000 -04:00
-tags: "test"
-categories: 'Mohanraj'
+type: post
+published: true
+title: My New Blog
+date:
+  - 2015-02-26T11:46:17.000Z
+  - "Thu Feb 26 2015 06:46:17 GMT-0500 (EST)"
+tags: test
+categories: Mohanraj
 keywords: "update, mohanraj"
 description: "update, mohanraj"
 layout: post
-type: post
-published: true
+Author: "Center for Medicare & Medicaid Services"
 ---
 
 ## A New Post
