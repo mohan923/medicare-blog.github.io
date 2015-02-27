@@ -38,8 +38,9 @@ prose:
        _posts:
           - name: 'layout'
             field:
-              element:'hidden'
-              value:'post'
+              element: 'text'
+              label: "Layout"
+              value: "post"
           - name: 'type'
             field:
               element:'hidden'
