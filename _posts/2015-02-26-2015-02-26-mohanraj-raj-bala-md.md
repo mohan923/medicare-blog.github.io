@@ -5,6 +5,7 @@ tags: "mohanraj, bala, raj"
 categories: Mohanraj Update
 keywords: "update, mohanraj"
 description: "update, mohanraj"
+layout: post
 ---
 
 ## A New Post
