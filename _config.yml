@@ -87,4 +87,5 @@ prose:
           - name: 'published'
             field:
               element: "text"
-              value: ""
+              label: "Published"
+              value: "true"
