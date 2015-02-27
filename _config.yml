@@ -53,6 +53,11 @@ prose:
           - name: 'title'
             field:
               element: "text"
+              label: 'Title'
+              value: ""
+          - name: 'title'
+            field:
+              element: "text"
               label: 'Meta Title'
               value: ""
           - name: 'tags'
@@ -84,4 +89,3 @@ prose:
             field:
               element: "hidden"
               value: "post"
-        
