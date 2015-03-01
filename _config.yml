@@ -36,10 +36,6 @@ exclude:
 prose:
   media: 'assets'
   rooturl: "_posts"
-  siteurl: "https://ecwsproc:W3lcome$$@prod-t.healthcare.gov/"
-  relativeLinks: "https://ecwsproc:W3lcome$$@prod-t.healthcare.gov/resources/prose/relativeLinks.jsonp"
-  site:
-    tags: "https://ecwsproc:W3lcome$$@prod-t.healthcare.gov/api/tags.jsonp"
   metadata:
     _posts:
       - name: "lang"
