@@ -32,9 +32,10 @@ exclude:
     - LICENSE
     - README.md
 
-metadata:
+prose:
+  metadata:
   _posts:
-    - name: "title"
+    - name: "layout"
       field:
-        element: "text"
-        label: "title"
+        element: "hidden"
+        value: "blog"
