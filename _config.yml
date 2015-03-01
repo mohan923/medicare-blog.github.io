@@ -24,14 +24,56 @@ exclude:
     - LICENSE
     - README.md
 
-# Prose settings
 prose:
-  media: 'assets'
-  rooturl: "_posts"
-  metadata:
-    _posts:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
+    siteurl: 'https://ndarville.github.io'
+    metadata:
+        _drafts:
+            - name: layout
+              field:
+                  element: hidden
+                  value: post
+            - name: categories
+              field:
+                  element: hidden
+                  value: blog
+            - name: title
+              field:
+                  element: text
+                  value: ""
+            - name: date
+              field:
+                  element: hidden
+                  value: ""
+            - name: excerpt
+              field:
+                  element: text
+                  value: ""
+                  placeholder: Use 200 characters at most.
+            - name: id
+              field:
+                  element: hidden
+                  value: ""
+            - name: tags
+              field:
+                  element: hidden
+                  value: ""
+    ignore:
+        - .gitignore
+        - .htaccess
+        - _config.yml
+        - favicon.ico
+        - feed.atom
+        - Gemfile
+        - Gemfile.lock
+        - identicon.png
+        - README.md
+        - robots.txt
+        - 404.html
+        - index.html
+        - /_layouts
+        - /_includes
+        - /_site
+        - /assets
+        - /css
+        - /js
+        - /links
