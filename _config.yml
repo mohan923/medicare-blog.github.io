@@ -32,47 +32,9 @@ exclude:
     - LICENSE
     - README.md
 
-prose:
-     rooturl: "_posts"
-     metadata:
-       _posts:
-          - name: 'title'
-            field:
-              element: "text"
-              label: 'Title'
-              value: ""
-              type: "text"
-          - name: 'layout'
-            field:
-              element: 'hidden'
-              label: "Layout"
-              value: "post"
-          - name: 'tags'
-            field:
-              element: "text"
-              label: 'Tags'
-              value: ""
-          - name: 'categories'
-            field:
-              element: "text"
-              label: 'Categories'
-              value: ""
-          - name: 'keywords'
-            field:
-              element: "text"
-              label: 'SEO Keywords'
-              value: ""
-          - name: 'description'
-            field:
-              element: "text"
-              label: 'Meta Description'
-              value: ""
-          - name: 'Author'
-            field:
-              element: "text"
-              label: "Author"
-              value: "Center for Medicare & Medicaid Services"
-          - name: 'type'
-            field:
-              element: "hidden"
-              value: "post"
+metadata:
+  _posts:
+    - name: "title"
+      field:
+        element: "text"
+        label: "title"
