@@ -38,10 +38,7 @@ prose:
   rooturl: "_posts"
   metadata:
     _posts:
-      - name: "lang"
+      - name: "title"
         field:
-          element: "select"
-          label: "Select language"
-          placeholder: "English"
-          options: *languages
-          selected: "en"
+          element: "text"
+          label: "title"
