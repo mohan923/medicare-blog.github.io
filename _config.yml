@@ -49,7 +49,7 @@ prose:
           - name: 'tags'
             field:
               element: "text"
-              label: 'Tags'
+              label: 'Title'
               value: ""
           - name: 'categories'
             field:
